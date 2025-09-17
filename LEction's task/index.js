@@ -6,7 +6,7 @@ while (find != number) {
     } else if (find > number) {
         alert("Меньше!");
     } else {
-        document.writeln("Поздравляем! Вы угадали число.");
+        document.write("Вы угадали!");
     }
     find = Number(prompt("Enter a number between 1 and 100"));
 }
